@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>tomocchino.github.io</title>
+  <title>Tom Occhino</title>
   <link rel="shortcut icon" href="/favicon.ico">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <style type="text/css" media="screen">
@@ -9,72 +9,46 @@
       min-height: 100%;
     }
     body {
-      background: #45484d;
-      background-image:         radial-gradient(50% 100px, ellipse cover, #45484d 0%, #000 100%);
-      background-image:    -moz-radial-gradient(50% 100px, ellipse cover, #45484d 0%, #000 100%);
-      background-image:     -ms-radial-gradient(50% 100px, ellipse cover, #45484d 0%, #000 100%);
-      background-image:      -o-radial-gradient(50% 100px, ellipse cover, #45484d 0%, #000 100%);
-      background-image: -webkit-radial-gradient(50% 100px, ellipse cover, #45484d 0%, #000 100%);
+      background: #23262b;
       font-family: "Lucida Grande", Verdana, sans-serif;
       font-size: 12px;
-      letter-spacing: 4px;
+      letter-spacing: 3px;
       line-height: 18px;
       padding-top: 50px;
-      }
+    }
     p {
-      color: #fff;
+      color: #ddd;
       cursor: default;
       margin: 50px auto 0;
       text-align: center;
       text-shadow: 0px 1px 2px #000;
     }
-    a {
-      color: #69c;
+    p.links, a {
+      color: #39c;
       text-decoration: none;
-      }
+      transition: color 0.1s;
+    }
     a:hover, a:focus {
-      color: #fff;
+      color: #ddd;
       outline: none;
-      }
+    }
     ::selection {
-      color: #fff;
       background: #000;
-      }
-    div.subscribe {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      padding: 5px 10px;
+      color: #ddd;
     }
   </style>
 </head>
 <body>
-  <div id="fb-root"></div>
-  <script>
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
   <p>
     Perfection is achieved not when there is nothing more to add,<br />
     but when there is nothing left to take away.
   </p>
-  <p>
-    <a href="http://www.facebook.com/tomo">tomo | facebook</a>
+  <p class="links">
+    <a href="http://www.facebook.com/tomo">facebook</a>
+    &middot;
+    <a href="http://www.twitter.com/tomocchino">twitter</a>
+    &middot;
+    <a href="http://www.github.com/tomocchino">github</a>
   </p>
-  <div class="subscribe">
-    <div
-      class="fb-subscribe"
-      data-colorscheme="dark"
-      data-font="lucida grande"
-      data-href="https://www.facebook.com/tomo"
-      data-layout="button_count"
-      data-show-faces="false">
-    </div>
-  </div>
 </body>
 </html>
